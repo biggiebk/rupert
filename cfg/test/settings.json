@@ -1,0 +1,14 @@
+{
+	"kafka": {
+		"connection": {
+			"bootstrap.servers": "localhost:9092"
+		},
+		"topics": {
+			"initialize_test": "test_topic_initialize_test"
+		},
+		"consumer": {
+			"group.id": "rupert",
+			"auto.offset.reset": "smallest"
+		}
+	}
+}
