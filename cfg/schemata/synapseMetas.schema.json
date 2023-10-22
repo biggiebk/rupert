@@ -1,0 +1,29 @@
+{
+	"version": 0,
+	"description": "Initial schema version",
+	"collectionName": "schemaVersions",
+	"schema": {
+		"$jsonSchema": {
+				"bsonType": "object",
+				"required": [ "name","description","version"],
+				"properties": {
+						"topicName": {
+								"bsonType": "string",
+								"description": "Name of the topic"
+						},
+						"msgPrefix": {
+								"bsonType" : "string",
+								"description": "Unique prefix for the synapse"
+						},
+						"msgCount": {
+								"bsonType" : "int",
+								"description": "Number of messages"
+						},
+						"synapseType": {
+							"bsontType": "string",
+							"description": "The type of synapse"
+						}
+				}
+		}
+	}
+}

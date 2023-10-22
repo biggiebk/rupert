@@ -1,4 +1,13 @@
 {
+	"database": {
+		"db_host": "127.0.0.1",
+		"db_port": 27017,
+		"rupert_db_name": "rupertDB",
+		"admin_user": "rupert_admin",
+		"admin_password": "test_1234",
+		"rupert_user": "rupert_user",
+		"rupert_password": "test_1234"
+	},
 	"kafka": {
 		"connection": {
 			"bootstrap.servers": "localhost:9092"

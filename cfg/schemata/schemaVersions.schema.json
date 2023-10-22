@@ -1,0 +1,25 @@
+{
+	"version": 0,
+	"description": "Initial schema version",
+	"collectionName": "schemaVersions",
+	"schema": {
+		"$jsonSchema": {
+				"bsonType": "object",
+				"required": [ "name","description","version"],
+				"properties": {
+						"collectionName": {
+								"bsonType": "string",
+								"description": "Name of the synapse type"
+						},
+						"description": {
+								"bsonType" : "string",
+								"description": "Discriptive text for the schema/collection"
+						},
+						"version": {
+								"bsonType" : "int",
+								"description": "Version number of the schema"
+						}
+				}
+		}
+	}
+}

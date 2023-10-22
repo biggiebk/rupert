@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.11
 """
 Description: Confirm the ability to communicate with Kafka as a consumer and producer
 """
