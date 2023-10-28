@@ -1,7 +1,7 @@
 {
 	"version": 0,
-	"description": "Initial schema version",
-	"collectionName": "schemaVersions",
+	"description": "Initial synapse version",
+	"collectionName": "synapseVersions",
 	"schema": {
 		"$jsonSchema": {
 				"bsonType": "object",
