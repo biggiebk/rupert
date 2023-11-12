@@ -3,3 +3,4 @@ import sys
 from rupert.shared.synapse import InitializeSynapse
 
 initialize_synapse = InitializeSynapse(sys.argv[1])
+initialize_synapse.initialize()
